@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        newsreader: ["var(--font-newsreader)"],
+        poppins: ["var(--font-poppins)"],
+        butler: ["var(--font-butler)"],
+      },
     },
   },
   plugins: [],
